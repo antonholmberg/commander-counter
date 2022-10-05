@@ -1,5 +1,4 @@
-import { h } from 'preact';
-import { Route, Router } from 'preact-router';
+import { h } from 'preact'
 
 
 const App = () => (
