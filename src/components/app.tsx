@@ -1,9 +1,7 @@
-import { h } from 'preact'
-
+import { h } from 'preact';
 
 const App = () => (
-	<div id="app">
-    </div>
+	<div id="app" />
 );
 
 export default App;
