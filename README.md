@@ -1,4 +1,5 @@
 # Anton Magic Commander Counter
+
 ## Context
 There is already an app out there called life total. It keeps track of players health and allows for dice rolling to see who should go first, as well as support for multiple players. While this app has served us well, it fails to deliver on the following things:
 
@@ -22,3 +23,18 @@ I have decided to split the features into MVP and stretch features.
 - Having the commander of each player as their background image, could be done using the MTG API. 
 - Displaying the current commander damage dealt to each player as well as increasing and decreasing it.
 - Displaying how many times a commander has been summoned.
+
+## CLI Commands
+*   `npm install`: Installs dependencies
+
+*   `npm run dev`: Run a development, HMR server
+
+*   `npm run serve`: Run a production-like server
+
+*   `npm run build`: Production-ready build
+
+*   `npm run lint`: Pass TypeScript files using ESLint
+
+*   `npm run test`: Run Jest and Enzyme with
+    [`enzyme-adapter-preact-pure`](https://github.com/preactjs/enzyme-adapter-preact-pure) for
+    your tests
