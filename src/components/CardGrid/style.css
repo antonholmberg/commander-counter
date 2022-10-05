@@ -1,0 +1,17 @@
+.cardGrid {
+  display: grid;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.twoColumns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.oneColumn {
+  grid-template-columns: 1fr;
+}
+
+.threeColumns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
